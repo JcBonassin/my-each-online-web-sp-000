@@ -1,3 +1,3 @@
 def my_each(array)
-  # code here
+  array.map { |n|  }
 end
