@@ -1,3 +1,8 @@
 def my_each(array)
-  my_each.each {{|n| my_each}}
+  counter = 0
+  while counter < array.length
+    yield (array[counter])
+    counter += 1
+  end 
+  array
 end
