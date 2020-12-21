@@ -1,5 +1,5 @@
 def my_each(array)
-  yield(number)
+  my_each.each {{|n| my_each}}
 end
 
-my_each (number) {|n| my_each}
+
