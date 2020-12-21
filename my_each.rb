@@ -2,4 +2,4 @@ def my_each(array)
   yield(array)
 end
 
-my_each (array) {|n| my_each}
+my_each (number) {|n| my_each}
