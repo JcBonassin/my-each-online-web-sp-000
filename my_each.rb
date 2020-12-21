@@ -1,3 +1,5 @@
 def my_each(array)
-  array.map { |n|  }
+  yield(array)
 end
+
+my_each (array) {|n| my_each}
